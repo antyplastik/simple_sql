@@ -5,6 +5,11 @@ select * from moviescopies;
 select * from moviesinfo;
 select * from rents;
 
+/*
+alter table moviescopies
+add column rentedTimes varchar(4) default 0;
+*/
+
 drop table customers;
 insert into customers(customerId,fullName, phone, email, address)
 values
